@@ -11,9 +11,9 @@ export const profile = {
   headline: 'Building enterprise platforms with {.NET, Angular & Azure} — and the AI systems that come next.',
   lede:
     'Ten years shipping .NET Core, Angular, and Blazor applications on Azure — from complex data-driven workflow platforms to cloud services at enterprise scale. Now extending that foundation into LLM evaluation, observability, and agentic pipelines.',
-  email: 'you@example.com',            // ← replace
-  linkedin: 'https://www.linkedin.com/in/YOURUSERNAME', // ← replace
-  github: 'https://github.com/YOURUSERNAME',            // ← replace
+  email: 'vijayaccess4.net@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/vijay-reddy-5a60bb10b/',
+  github: 'https://github.com/vreddy07',
 };
 
 export const about = {
@@ -123,32 +123,32 @@ export const projects = [
 
 export const experience = [
   {
-    when: '2024 — Present',
-    role: 'Senior Full Stack Engineer',
-    org: 'Enterprise client · Indianapolis, IN',
+    when: 'Oct 2023 — Present',
+    role: 'Senior Full Stack Software Engineer',
+    org: 'Deloitte (Department of HealthCare CA) · Indianapolis, IN',
     summary:
-      'Building a data-intensive workflow platform with .NET Core, Angular 20, and EF Core on Azure — complex UI tooling, service integrations, stored procedure design, and unit test coverage across frontend and backend.',
+      'Built high-concurrency .NET 10 APIs and Blazor Server Claims Processing Portal, improving batch throughput by 40% through parallel processing. Designed SignalR-based real-time architecture supporting 100K+ daily users. Reduced latency from 220ms to 98ms via Frozen Collections and SQL Server optimization. Architected microservices on Docker/Kubernetes for 99.99% uptime.',
   },
   {
-    when: '2022 — 2024',
-    role: 'Senior Consultant — Cloud Engineering',
-    org: 'Deloitte',
+    when: 'Mar 2020 — Sep 2023',
+    role: 'Senior Full Stack Software Engineer',
+    org: 'Indiana Department of Transportation · Indianapolis, IN',
     summary:
-      'Enterprise cloud platform development: Azure DevOps pipelines, Kubernetes-based microservices, and large-scale .NET services for enterprise clients.',
+      'Built async messaging services using System.Threading.Channels achieving 9,200+ RPS. Optimized memory usage by 30% with Span<T> and Memory<T>. Improved query performance by 35% through Redis caching and Query Store optimization. Implemented JWT auth and CI/CD pipelines on Azure DevOps.',
   },
   {
-    when: '2019 — 2022',
-    role: 'Software Engineer — Automation & Enterprise Apps',
-    org: 'Elevance Health',
+    when: 'Jun 2019 — Feb 2020',
+    role: 'Senior Software Engineer',
+    org: 'Healthcare Association with New York State · New York, NY',
     summary:
-      'UiPath/RPA development and enterprise application delivery, including accessibility remediation to WCAG standards using NVDA, VoiceOver, and axe DevTools.',
+      'Led full-stack modernization of OJT Training Portal, migrating legacy systems to .NET Core and Angular. Reduced manual testing by 50% through TDD implementation.',
   },
   {
-    when: '2016 — 2019',
-    role: 'Full Stack Developer',
-    org: 'Earlier roles · Enterprise & public sector',
+    when: 'Feb 2019 — Jun 2019',
+    role: 'Full Stack .NET Developer',
+    org: 'Finastra · Portland, OR',
     summary:
-      'Full stack delivery across .NET and JavaScript frameworks, building the foundation in APIs, SQL performance tuning, and cloud deployment.',
+      'Developed core payment and lending services for Total-Lending Cloud Portal. Integrated Azure Service Bus for reliable asynchronous inter-service communication.',
   },
 ];
 
