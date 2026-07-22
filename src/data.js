@@ -125,30 +125,68 @@ export const experience = [
   {
     when: 'Oct 2023 — Present',
     role: 'Senior Full Stack Software Engineer',
-    org: 'Deloitte (Department of HealthCare CA) · Indianapolis, IN',
-    summary:
-      'Built high-concurrency .NET 10 APIs and Blazor Server Claims Processing Portal, improving batch throughput by 40% through parallel processing. Designed SignalR-based real-time architecture supporting 100K+ daily users. Reduced latency from 220ms to 98ms via Frozen Collections and SQL Server optimization. Architected microservices on Docker/Kubernetes for 99.99% uptime.',
+    org: 'Deloitte, Insight Global',
+    location: 'Indianapolis, IN',
+    stack: 'ASP.NET Core · C# · SQL Server · Kafka · Azure · Docker',
+    highlights: [
+      'Lead technical design, development, and support on a large enterprise claims platform (ASP.NET Core, C#, SQL Server) that integrates with half a dozen upstream state systems — authored technical designs, led design reviews, and worked cross-system interdependencies with minimal guidance.',
+      'Translate business requirements from Business Systems Analysts and agency stakeholders into maintainable technical solutions; help define acceptance criteria and support user acceptance testing each release.',
+      'Production support for Kafka-based event streams feeding the claims platform — monitored consumer lag, replayed failed messages, and resolved broker/consumer issues during incident windows.',
+      'Diagnose and resolve complex production issues by identifying root causes across services, queues, and SQL; brought one critical API path from ~220ms down to under 100ms with no schema change.',
+      'Own release packaging, implementation plans, rollback scripts, and operational runbooks; kept production upgrades boring (the good kind).',
+      'Containerized .NET services with Docker for consistent dev/test/prod parity, wired into CI/CD pipelines on Azure DevOps.',
+      'Integrated Azure OpenAI LLM APIs into .NET services for AI-assisted automation and natural-language text processing; use Copilot and Claude day-to-day for AI-assisted development.',
+      'Mentor mid-level engineers through pairing, peer code reviews, and architecture walkthroughs; take on-call rotations and after-hours implementation windows for critical systems.',
+    ],
   },
   {
     when: 'Mar 2020 — Sep 2023',
-    role: 'Senior Full Stack Software Engineer',
-    org: 'Indiana Department of Transportation · Indianapolis, IN',
-    summary:
-      'Built async messaging services using System.Threading.Channels achieving 9,200+ RPS. Optimized memory usage by 30% with Span<T> and Memory<T>. Improved query performance by 35% through Redis caching and Query Store optimization. Implemented JWT auth and CI/CD pipelines on Azure DevOps.',
+    role: 'Senior Software Engineer',
+    org: 'Indiana Department of Transportation',
+    location: 'Indianapolis, IN',
+    stack: 'ASP.NET Core · PostgreSQL · Redis · SQL Server · Azure DevOps',
+    highlights: [
+      'Led modernization of a legacy ASP.NET MVC system to ASP.NET Core 6/7 using object-oriented analysis and design and established design patterns; phased cutover, zero production downtime.',
+      'Maintained enterprise .NET services in a multi-platform distributed environment with controlled deployment windows, change approval, and strict rollback requirements.',
+      'Built the team\'s CI/CD pipelines on Azure DevOps — branch policies, build validation, release gates, and artifact retention matched to state audit requirements.',
+      'Tuned PostgreSQL and SQL Server workloads and layered Redis for hot lookups; average API latency dropped from 250ms to ~142ms without changing application contracts.',
+      'Led peer code reviews across a 10-person team; mentored 3 junior engineers on Clean Architecture, async/await, and EF Core tracking behavior. Wrote technical documentation the sustainment team still uses.',
+    ],
   },
   {
     when: 'Jun 2019 — Feb 2020',
     role: 'Senior Software Engineer',
-    org: 'Healthcare Association with New York State · New York, NY',
-    summary:
-      'Led full-stack modernization of OJT Training Portal, migrating legacy systems to .NET Core and Angular. Reduced manual testing by 50% through TDD implementation.',
+    org: 'Healthcare Association of New York State',
+    location: 'New York, NY',
+    stack: 'ASP.NET Core · Angular · xUnit · Moq · WebForms',
+    highlights: [
+      'Led redesign of the OJT Training Portal — migrated a legacy WebForms application to ASP.NET Core + Angular in stages while preserving backward-compatible APIs.',
+      'Stood up test-driven development for the service layer (xUnit, Moq); manual regression effort dropped roughly in half as automated testing coverage grew.',
+      'Coached two developers through their first production deployments; ran weekly architecture review sessions on Dapper vs EF Core trade-offs.',
+    ],
   },
   {
     when: 'Feb 2019 — Jun 2019',
-    role: 'Full Stack .NET Developer',
-    org: 'Finastra · Portland, OR',
-    summary:
-      'Developed core payment and lending services for Total-Lending Cloud Portal. Integrated Azure Service Bus for reliable asynchronous inter-service communication.',
+    role: 'Software Engineer (.NET)',
+    org: 'Finastra — Total Lending Cloud Portal',
+    location: 'Portland, OR',
+    stack: 'ASP.NET Core · Entity Framework · Azure Service Bus · SpecFlow · SQL Server',
+    highlights: [
+      'Extended a multi-tenant SaaS lending platform built on ASP.NET Core and Entity Framework under tight release controls.',
+      'Moved inter-service integration onto Azure Service Bus messaging with asynchronous processing, so transient failures stopped causing data-loss incidents during nightly batch runs.',
+      'Added SpecFlow scenarios around lending endpoints to catch behavioural regressions before QA.',
+    ],
+  },
+  {
+    when: 'Jan 2018 — Jan 2019',
+    role: '.NET Developer',
+    org: 'NaviHealth',
+    location: 'Horsham, PA',
+    stack: 'Angular · ASP.NET Web API · SQL Server · OAuth2 · OpenID Connect',
+    highlights: [
+      'Built and maintained the NH Admin Portal — Angular front-end against API-driven ASP.NET Web APIs backed by SQL Server.',
+      'Standardized API auth across services on OAuth2 + OpenID Connect; made integration onboarding a lot less error-prone for partner teams.',
+    ],
   },
 ];
 
