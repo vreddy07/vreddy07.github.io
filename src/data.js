@@ -125,7 +125,7 @@ export const experience = [
   {
     when: 'Oct 2023 — Present',
     role: 'Senior Full Stack Software Engineer',
-    org: 'Deloitte, Insight Global',
+    org: 'Insight Global',
     location: 'Indianapolis, IN',
     stack: 'ASP.NET Core · C# · SQL Server · Kafka · Azure · Docker',
     highlights: [
